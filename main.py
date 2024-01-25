@@ -1,8 +1,13 @@
 from Monitor import MonitorSerial
 
+def atualizatela(data):
+    data[0]
+    print(data[1])
+    pass
+
 if __name__ == "__main__":
     monitor = MonitorSerial("COM3",9600)
-    monitor.msg = 'ab8110dee936cd'
+    monitor.msg = "ab8110dee936cd"
     monitor.start()
     try:
         while True:
