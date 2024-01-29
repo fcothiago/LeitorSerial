@@ -1,5 +1,4 @@
 from Monitor import MonitorSerial
-
 from XBeeDataViewer import XBeeDataViewer
 
 if __name__ == "__main__":
